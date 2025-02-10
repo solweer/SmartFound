@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFound: Disrupt, Innovate and Launch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-indigo-900 min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed w-full pixel-font py-4 px-6 flex justify-between items-center relative z-50 bg-indigo-900/80 backdrop-blur-sm">
+        <div class="text-white text-lg">SmartFound</div>
+        <div class="hidden md:flex space-x-6">
+            <a href="#home" class="text-white hover:text-orange-400 text-sm nav-link">Home</a>
+            <a href="#learn" class="text-white hover:text-orange-400 text-sm nav-link">Learn</a>
+            <a href="#programs" class="text-white hover:text-orange-400 text-sm nav-link">Programs</a>
+            <a href="#resources" class="text-white hover:text-orange-400 text-sm nav-link">Resources</a>
+            <a href="#growth" class="text-white hover:text-orange-400 text-sm nav-link">Growth</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- The gradient circle -->
+        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-[800px] h-[800px] bg-gradient-to-b from-yellow-400 via-orange-500 to-red-500 rounded-full opacity-90"></div>
+        
+        <!-- Hero Content -->
+        <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+            <div class="pixel-font text-white space-y-6">
+                <h1 class="text-3xl mb-4">SmartFound</h1>
+                <p class="text-lg mb-8">Disrupt, Innovate and Launch</p>
+                <p class="text-xs mb-8 font-sans">Join our dynamic community of entrepreneurs, technologists, and problem-solvers</p>
+                
+                <!-- Static Timer with Animation -->
+                <div class="grid grid-cols-4 gap-4 max-w-lg mx-auto mb-8">
+                    <div class="timer-box bg-black/30 backdrop-blur-sm p-4 rounded">
+                        <div class="text-xl mb-1">30</div>
+                        <div class="text-xs">DAYS</div>
+                    </div>
+                    <div class="timer-box bg-black/30 backdrop-blur-sm p-4 rounded">
+                        <div class="text-xl mb-1">24</div>
+                        <div class="text-xs">HOURS</div>
+                    </div>
+                    <div class="timer-box bg-black/30 backdrop-blur-sm p-4 rounded">
+                        <div class="text-xl mb-1">60</div>
+                        <div class="text-xs">MINUTES</div>
+                    </div>
+                    <div class="timer-box bg-black/30 backdrop-blur-sm p-4 rounded">
+                        <div class="text-xl mb-1">60</div>
+                        <div class="text-xs">SECONDS</div>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center space-x-4">
+                    <button class="bg-white text-black px-6 py-2 rounded hover:bg-gray-200 text-sm transition-colors duration-300">Join Now!</button>
+                    <button class="border-2 border-white text-white px-6 py-2 rounded hover:bg-white/10 text-sm transition-colors duration-300">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wave SVG -->
+        <div class="absolute bottom-0 w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="w-full">
+                <path fill="#1e1b4b" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,165.3C384,171,480,149,576,128C672,107,768,85,864,90.7C960,96,1056,128,1152,133.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Content Sections -->
+    <section id="learn" class="bg-indigo-950 relative z-20 py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="pixel-font text-white text-2xl mb-12 text-center">Learn and Grow</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                    <h3 class="pixel-font text-white text-lg mb-4">Expert-led Learning</h3>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>Expert-led workshops and webinars</li>
+                        <li>Comprehensive online courses</li>
+                        <li>Personalized mentorship programs</li>
+                        <li>Industry-focused training sessions</li>
+                    </ul>
+                </div>
+                <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                    <h3 class="pixel-font text-white text-lg mb-4">Community Building</h3>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>Network with industry leaders</li>
+                        <li>Find potential co-founders</li>
+                        <li>Join innovator community</li>
+                        <li>Participate in collaborative projects</li>
+                    </ul>
+                </div>         
+                <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                    <h3 class="pixel-font text-white text-lg mb-4">Launch Support</h3>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>Access seed funding opportunities</li>
+                        <li>Connect with investors</li>
+                        <li>Receive strategic guidance</li>
+                        <li>Utilize growth resources</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Vision Mission -->
+    <section class="bg-indigo-950 relative z-20 py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <div class="mb-12">
+                <h2 class="pixel-font text-white text-2xl mb-6">Our Vision</h2>
+                <p class="text-gray-300">To be the leading platform for aspiring and established entrepreneurs, technologists, and problem-solvers to connect, collaborate, and thrive.</p>
+            </div>
+            <div>
+                <h2 class="pixel-font text-white text-2xl mb-6">Our Mission</h2>
+                <p class="text-gray-300">To empower individuals with the knowledge, skills, and resources they need to turn their innovative ideas into successful ventures, while fostering a vibrant and supportive community that drives innovation and economic growth.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- Core Programs Section -->
+ <section id="programs" class="bg-indigo-950 relative z-20 py-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="pixel-font text-white text-2xl mb-12 text-center">Core Programs</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                <h3 class="pixel-font text-white text-lg mb-4">Mentorship Hub</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>One-on-one mentorship matching</li>
+                    <li>Specialized guidance in tech & business</li>
+                    <li>Regular mentor office hours</li>
+                    <li>Expert advisory sessions</li>
+                </ul>
+            </div>
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                <h3 class="pixel-font text-white text-lg mb-4">Innovation Lab</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>Regular hackathons</li>
+                    <li>Technical workshops</li>
+                    <li>Design thinking sessions</li>
+                    <li>Prototype development support</li>
+                </ul>
+            </div>
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                <h3 class="pixel-font text-white text-lg mb-4">Funding Gateway</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>Investor networking events</li>
+                    <li>Pitch competitions</li>
+                    <li>Fundraising workshops</li>
+                    <li>Due diligence support</li>
+                </ul>
+            </div>
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                <h3 class="pixel-font text-white text-lg mb-4">Community Events</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>Monthly meetups</li>
+                    <li>Industry panels</li>
+                    <li>Skill-sharing workshops</li>
+                    <li>Startup showcase</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Resources Section -->
+ <section id="resources" class="bg-indigo-950 relative z-20 py-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="pixel-font text-white text-2xl mb-12 text-center">Resources and Support</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30">
+                <h3 class="pixel-font text-white text-lg mb-4">Technical Resources</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>Comprehensive coding tutorials</li>
+                    <li>Design and UX guidelines</li>
+                    <li>Architecture best practices</li>
+                    <li>Cloud infrastructure support</li>
+                </ul>
+            </div>
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30">
+                <h3 class="pixel-font text-white text-lg mb-4">Business Tools</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>Financial modeling templates</li>
+                    <li>Legal document samples</li>
+                    <li>Marketing strategy guides</li>
+                    <li>Operations playbooks</li>
+                </ul>
+            </div>
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30">
+                <h3 class="pixel-font text-white text-lg mb-4">Knowledge Base</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>Case studies and success stories</li>
+                    <li>Industry research reports</li>
+                    <li>Market analysis tools</li>
+                    <li>Trend forecasting resources</li>
+                </ul>
+            </div>
+
+            <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30">
+                <h3 class="pixel-font text-white text-lg mb-4">Help Desk</h3>
+                <ul class="text-gray-300 text-sm space-y-2">
+                    <li>24/7 Technical support</li>
+                    <li>Troubleshooting assistance</li>
+                    <li>Resource access help</li>
+                    <li>Platform navigation guidance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Values -->
+<section class="bg-indigo-950 relative z-20 py-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="pixel-font text-white text-2xl mb-12 text-center">Our Values</h2>
+        <div class="grid md:grid-cols-5 gap-8">
+            <div class="text-center">
+                <h3 class="pixel-font text-white text-lg mb-2">Innovation</h3>
+                <p class="text-gray-300 text-sm">Driving creative solutions</p>
+            </div>
+            <div class="text-center">
+                <h3 class="pixel-font text-white text-lg mb-2">Collaboration</h3>
+                <p class="text-gray-300 text-sm">Working together for success</p>
+            </div>
+            <div class="text-center">
+                <h3 class="pixel-font text-white text-lg mb-2">Growth</h3>
+                <p class="text-gray-300 text-sm">Continuous improvement</p>
+            </div>
+            <div class="text-center">
+                <h3 class="pixel-font text-white text-lg mb-2">Impact</h3>
+                <p class="text-gray-300 text-sm">Making meaningful change</p>
+            </div>
+            <div class="text-center">
+                <h3 class="pixel-font text-white text-lg mb-2">Inclusivity</h3>
+                <p class="text-gray-300 text-sm">Welcoming all innovators</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Growth Programs Section -->
+    <section id="growth" class="bg-indigo-950 relative z-20 py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="pixel-font text-white text-2xl mb-12 text-center">Programs for Growth</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                    <h3 class="pixel-font text-white text-lg mb-4">Incubator Program</h3>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>3-month intensive program</li>
+                        <li>Seed funding opportunities</li>
+                        <li>Dedicated mentorship</li>
+                        <li>Product development support</li>
+                    </ul>
+                    <button class="pixel-font mt-6 relative overflow-hidden bg-white text-black px-6 py-2 rounded-lg 
+                                    font-medium text-sm uppercase tracking-wider
+                                    transform transition-all duration-300 ease-in-out
+                                    hover:scale-105 hover:shadow-lg 
+                                    active:scale-95
+                                    before:absolute before:inset-0 before:bg-gradient-to-r before:from-orange-400 before:to-red-500
+                                    before:translate-x-[-100%] before:hover:translate-x-0 before:transition-transform before:duration-300
+                                    before:opacity-0 before:hover:opacity-100
+                                    hover:text-white hover:border-transparent
+                                    group">
+                    <span class="relative z-10">Apply Now</span>
+                    </button>
+                </div>
+                <div class="bg-gradient-to-br from-[#fb923c]/50 to-red-500/30 p-8 rounded-xl backdrop-blur-sm border border-[#fb923c]/30 
+                            transition-all duration-300 ease-in-out 
+                            hover:scale-105 hover:shadow-lg hover:shadow-orange-500/20 hover:border-orange-500">
+                    <h3 class="pixel-font text-white text-lg mb-4">Accelerator Program</h3>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li>6-month scaling program</li>
+                        <li>Investor introductions</li>
+                        <li>Market expansion strategy</li>
+                        <li>Enterprise client access</li>
+                    </ul>
+                    <button class="pixel-font mt-6 relative overflow-hidden bg-white text-black px-6 py-2 rounded-lg 
+                    font-medium text-sm uppercase tracking-wider
+                    transform transition-all duration-300 ease-in-out
+                    hover:scale-105 hover:shadow-lg 
+                    active:scale-95
+                    before:absolute before:inset-0 before:bg-gradient-to-r before:from-orange-400 before:to-red-500
+                    before:translate-x-[-100%] before:hover:translate-x-0 before:transition-transform before:duration-300
+                    before:opacity-0 before:hover:opacity-100
+                    hover:text-white hover:border-transparent
+                    group">
+                    <span class="relative z-10">Learn</span>
+                     </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Section -->
+    <footer class="bg-indigo-950 text-white py-8 relative z-20 border-t border-indigo-900/50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="pixel-font text-base mb-4">SmartFound</h4>
+                    <p class="text-sm text-gray-400 font-sans">Empowering innovators to transform ideas into successful ventures.</p>
+                </div>
+                <div>
+                    <h4 class="pixel-font text-base mb-4">Resources</h4>
+                    <ul class="text-sm text-gray-400 font-sans">
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Technical Resources</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Business Tools</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Knowledge Base</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="pixel-font text-base mb-4">Programs</h4>
+                    <ul class="text-sm text-gray-400 font-sans">
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Mentorship</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Incubator</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Ideathons</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Accelerator</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Startup Competitions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="pixel-font text-base mb-4">Connect</h4>
+                    <ul class="text-sm text-gray-400 font-sans">
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Community Forum</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Events Calendar</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Newsletter</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-white transition-colors duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2025 SmartFound. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
